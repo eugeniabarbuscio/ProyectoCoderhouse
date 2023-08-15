@@ -8,27 +8,27 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
+        <div class="imagen-logo">
+          <img src="../multimedia/img/anteojos.jpeg" alt="Logo">
+        </div>
         <ul class="menu">
-          <li>
-            Ir a
-            <ul class="submenu">
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="nosotros.html">Nosotros</a></li>
-              <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
-              <li><a href="como-comprar.html">Como Comprar</a></li>
-              <li><a href="contactenos.html">Contactenos</a></li>
-            </ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../nosotros.html">Nosotros</a></li>
+          <li><a href="../pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+          <li><a href="../pages/como-comprar.html">Como Comprar</a></li>
+          <li><a href="contactenos.html">Contactenos</a></li>
           </li>
         </ul>
-        <div class="imagen-logo">
-          <img src="./multimedia/img/anteojos.jpeg" alt="Logo">
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-        <div class="search-cart">
-          <input type="text" placeholder="Search">
-          <button class="search-btn"><img src="search-icon.png" alt="Search"></button>
-          <button class="cart-btn"><img src="cart-icon.png" alt="Cart"></button>
-        </div>
+        <script src="script.js"></script>
+        <form class="Search" action="action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+        </form>
     </nav>
     </header>
     <main>
