@@ -3,33 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Dulces tentaciones hechas a mano. Pasteles irresistibles para cada ocasión">
+    <meta name="keywords" content="pastelería,pasteles,cupcake,comida">
     <title>The Steam Company</title>
 <link rel="stylesheet" href="./CSS/styles.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 <body>
   <header>
-    <nav>
+    <nav class="navbar">
+      <div class="imagen-logo">
+        <img src="./multimedia/img/anteojos.jpeg" alt="Logo">
+      </div>
       <ul class="menu">
-        <li>
-          Ir a
-          <ul class="submenu">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="./pages/nosotros.html">Nosotros</a></li>
             <li><a href="./pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
             <li><a href="./pages/como-comprar.html">Como Comprar</a></li>
             <li><a href="./pages/contactenos.html">Contactenos</a></li>
-          </ul>
         </li>
       </ul>
-      <div class="imagen-logo">
-        <img src="./multimedia/img/anteojos.jpeg" alt="Logo">
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
-      <div class="search-cart">
-        <input type="text" placeholder="Search">
-        <button class="search-btn"><img src="search-icon.png" alt="Search"></button>
-        <button class="cart-btn"><img src="cart-icon.png" alt="Cart"></button>
-      </div>
+      <script src="script.js"></script>
+      <form class="Search" action="action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+      </form>
   </nav>
   </header>
   <main>
@@ -150,22 +153,22 @@
         <button class="buy-btn">Comprar</button>
       </div>
       <div class="box">
-        <img src="product5.jpg" alt="Product 5">
+        <img src="./multimedia/img/tortasaltas.jpeg" alt="Product 5">
         <p>Product 5 Description</p>
         <button class="buy-btn">Comprar</button>
       </div>
       <div class="box">
-        <img src="product6.jpg" alt="Product 6">
+        <img src="./multimedia/img/minitorta.jpeg" alt="Product 6">
         <p>Product 6 Description</p>
         <button class="buy-btn">Comprar</button>
       </div>
       <div class="box">
-        <img src="product7.jpg" alt="Product 6">
+        <img src="./multimedia/img/torta-sacher.jpeg" alt="Product 6">
         <p>Product 6 Description</p>
         <button class="buy-btn">Comprar</button>
       </div>
       <div class="box">
-        <img src="product8.jpg" alt="Product 6">
+        <img src="./multimedia/img/Cupcakes.jpeg" alt="Product 6">
         <p>Product 6 Description</p>
         <button class="buy-btn">Comprar</button>
       </div>

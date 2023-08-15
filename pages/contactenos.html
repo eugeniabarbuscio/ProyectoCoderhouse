@@ -3,39 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Steam Company</title>
+    <meta name="Description" content="Contáctanos fácilmente para consultas y pedidos. Estamos aquí para hacer realidad tus deseos dulces">
+    <title>Contactenos</title>
 <link rel="stylesheet" href="../CSS/styles.css">
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
+        <div class="imagen-logo">
+          <img src="../multimedia/img/anteojos.jpeg" alt="Logo">
+        </div>
         <ul class="menu">
-          <li>
-            Ir a
-            <ul class="submenu">
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="nosotros.html">Nosotros</a></li>
-              <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
-              <li><a href="como-comprar.html">Como Comprar</a></li>
-              <li><a href="contactenos.html">Contactenos</a></li>
-            </ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../pages/nosotros.html">Nosotros</a></li>
+          <li><a href="../pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+          <li><a href="../pages/como-comprar.html">Como Comprar</a></li>
+          <li><a href="contactenos.html">Contactenos</a></li>
           </li>
         </ul>
-        <div class="imagen-logo">
-          <img src="./multimedia/img/anteojos.jpeg" alt="Logo">
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-        <div class="search-cart">
-          <input type="text" placeholder="Search">
-          <button class="search-btn"><img src="search-icon.png" alt="Search"></button>
-          <button class="cart-btn"><img src="cart-icon.png" alt="Cart"></button>
-        </div>
+        <script src="script.js"></script>
+        <form class="Search" action="action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+        </form>
     </nav>
     </header>
     <main>
       <div class="textoMapa">
         <div class="tmap">
-          <h2>Donde estamos?</h2>
-          <p> Podes encontrarnos en Adrogue, Buenos Aires, muy cerquita de la estacion tanto de Adrogue como de Turdera!</p>
+          <h1>Donde estamos?</h1>
+          <h2> Podes encontrarnos en Adrogue, Buenos Aires, muy cerquita de la estacion tanto de Adrogue como de Turdera!</h2>
         </div>
         <div class="contenedormapa">
         <div class="mapa">

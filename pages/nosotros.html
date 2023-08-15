@@ -3,35 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Steam Company</title>
+    <meta name="Description" content="Conoce nuestra historia y pasión por la pastelería. Creamos delicias con amor y creatividad para ti.">
+    <title>Nototros</title>
 <link rel="stylesheet" href="../CSS/styles.css">
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
+        <div class="imagen-logo">
+          <img src="../multimedia/img/anteojos.jpeg" alt="Logo">
+        </div>
         <ul class="menu">
-          <li>
-            Ir a
-            <ul class="submenu">
               <li><a href="../index.html">Inicio</a></li>
               <li><a href="nosotros.html">Nosotros</a></li>
-              <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
-              <li><a href="como-comprar.html">Como Comprar</a></li>
-              <li><a href="contactenos.html">Contactenos</a></li>
-            </ul>
+              <li><a href="../pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+              <li><a href="../pages/como-comprar.html">Como Comprar</a></li>
+              <li><a href="../pages/contactenos.html">Contactenos</a></li>
           </li>
         </ul>
-        <div class="imagen-logo">
-          <img src="./multimedia/img/anteojos.jpeg" alt="Logo">
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-        <div class="search-cart">
-          <input type="text" placeholder="Search">
-          <button class="search-btn"><img src="search-icon.png" alt="Search"></button>
-          <button class="cart-btn"><img src="cart-icon.png" alt="Cart"></button>
-        </div>
+        <script src="script.js"></script>
+        <form class="Search" action="action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+        </form>
     </nav>
     </header>
     <main>
+      <h1>Quienes somos nosotros? </h1> 
+      <h2>Como llegamos aqui?</h2>
     <div class="Nosotros0">
       <div class="TextoNosotros"><p class="quieneSomos"> Bienvenidos!! Queremos presentarnos para que conozcan un poco mas de nuestra historia y nuestra marca. 
         Mi nombre es eugenia Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat corporis quos aut voluptatem. Velit, earum. Unde pariatur praesentium nihil sapiente autem reprehenderit ullam a, et minima ipsa, deserunt quibusdam modi.
