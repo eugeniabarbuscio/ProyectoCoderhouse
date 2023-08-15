@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 nav, ul {
   margin: 0;
   padding: 0;
@@ -75,37 +73,25 @@ nav, ul {
     left: 0;
     z-index: 1;
   }
-
   .menu.active {
     display: flex;
   }
-
   .menu li {
     margin: 0;
     width: 100%;
     text-align: center;
   }
-
   .hamburger {
     display: flex;
   }
 }
-
-const hamburger = document.querySelector('.hamburger');
-const menu = document.querySelector('.menu');
-
-hamburger.addEventListener('click', () => {
-  menu.classList.toggle('active');
-});
-
 .imagen-logo {
-  display:block
-  object-fit: cover;
+  display: block;
 }
 
 .Search {
   display: flex;
-  justify-content: end; 
+  justify-content: end;
   align-items: center;
   height: 60px;
   border: none;
@@ -114,16 +100,13 @@ hamburger.addEventListener('click', () => {
   cursor: pointer;
 }
 
-
 /* Body */
-
-
-Body{font-family: 'Playfair Display', serif;
-color: black;}
-
+Body {
+  font-family: "Playfair Display", serif;
+  color: black;
+}
 
 /*Para el slide tengo que agregar si o si Java? si se como hacerlo con java se los agrego o lo saco del proyecto?*/
-
 .carousel {
   max-height: 800px;
   overflow: hidden;
@@ -146,22 +129,18 @@ color: black;}
   display: none;
 }
 
-
 .slideshow-container .slide.active {
   display: block;
 }
-
 
 .slideshow-container .slide img {
   display: block;
 }
 
-
-.contenedorCalendario{
+.contenedorCalendario {
   display: flex;
   align-items: flex-start;
 }
-
 
 .calendario {
   flex: 0.5;
@@ -175,9 +154,11 @@ color: black;}
   background-color: #A87D0D;
   color: #ffffff;
 }
-.table{
+
+.table {
   align-content: center;
 }
+
 .texto-de-calendario {
   flex: 1;
   margin-left: 30px;
@@ -186,30 +167,29 @@ color: black;}
   margin-bottom: 30px;
   text-align: center;
   font-size: 110%;
-  font-family: 'Playfair Display', serif;
-  color: black;}
+  font-family: "Playfair Display", serif;
+  color: black;
+}
 
+.contenedorEshop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: start;
+}
 
-  .contenedorEshop {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: start;
-  
+.box {
+  width: 400px;
+  height: 500px;
+  border: 2px solid #A87D0D;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 10%;
+  gap: 5px;
+}
 
-  }
-  
-  .box {
-    width: 400px;
-    height: 500px;
-    border: 2px solid #A87D0D ;
-    padding: 20px;
-    border-radius: 6px;
-    background-color: #ffffff;
-    text-align: center;
-    margin-bottom: 10%;
-    gap: 5px;
-  }
 .box img {
   width: 200px;
   height: 200px;
@@ -233,7 +213,7 @@ button {
   background-color: #A87D0D;
   color: rgb(0, 0, 0);
   font-style: oblique;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-style: dotted;
   border-color: #A87D0D;
   padding: 5px 10px;
@@ -242,26 +222,28 @@ button {
   position: relative;
   top: 25px;
   left: 80px;
-
 }
 
+h2 {
+  font-size: medium;
+}
 
-h3{
-font-family: 'Playfair Display', serif;
+h3 {
+  font-family: "Playfair Display", serif;
   font-style: italic;
   font-weight: bold;
-  font-size: large;}
+  font-size: large;
+}
 
-
-.como-comprar{
+.como-comprar {
   margin-top: 60px;
   font-display: left;
   margin-bottom: 20px;
 }
 
-
-li{margin-bottom: 20px;}
-
+li {
+  margin-bottom: 20px;
+}
 
 .Nosotros0 {
   display: flex;
@@ -271,21 +253,19 @@ li{margin-bottom: 20px;}
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-;
 }
 
 .imagenesnosotros img {
   margin-bottom: 10px;
   margin-right: 60px;
   width: 400px;
-  height:600px
+  height: 600px;
 }
 
-.TextoNosotros{
+.TextoNosotros {
   margin-left: 80px;
   margin-right: 100px;
 }
-
 
 .textoMapa {
   display: flex;
@@ -311,19 +291,17 @@ li{margin-bottom: 20px;}
   height: 100%;
 }
 
-
-.contcontactenos{
+.contcontactenos {
   flex: 1;
   max-width: 400px;
   margin: 100px;
 }
 
-
 .Formulario {
   max-width: 400px;
   margin: 20px;
   padding: 30px;
-border-radius: 15px;
+  border-radius: 15px;
   background-color: #f2f2f2;
 }
 
@@ -336,9 +314,9 @@ border-radius: 15px;
   font-weight: bold;
 }
 
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group input[type="tel"],
+.form-group input[type=text],
+.form-group input[type=email],
+.form-group input[type=tel],
 .form-group textarea {
   width: 100%;
   padding: 8px;
@@ -363,19 +341,17 @@ border-radius: 15px;
   cursor: pointer;
 }
 
-
 .Socialmedia {
   position: absolute;
   top: 900px;
   right: 700px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   gap: 10px;
- 
 }
 
 .social-icons a img {
-  width: 70px; 
+  width: 70px;
   height: 70px;
 }
 
@@ -387,6 +363,7 @@ border-radius: 15px;
   text-decoration: none;
   border-radius: 4px;
 }
+
 .imgcontactos {
   cursor: pointer;
   border-radius: 4px;
@@ -413,6 +390,7 @@ footer {
   display: flex;
   justify-content: center;
 }
+
 .row:nth-child(1) {
   justify-content: flex-start;
 }
@@ -420,6 +398,7 @@ footer {
 .row:nth-child(3) {
   justify-content: flex-end;
 }
+
 .row a {
   color: #fff;
   text-decoration: none;
@@ -429,7 +408,7 @@ footer {
 .social-icons {
   display: flex;
   justify-content: flex-end;
-grid-column: 3;
+  grid-column: 3;
 }
 
 .social-icons a {
@@ -444,3 +423,5 @@ grid-column: 3;
 .row {
   flex: 1;
 }
+
+/*# sourceMappingURL=styles.css.map */
